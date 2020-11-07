@@ -20,7 +20,7 @@ namespace TabView_Sample
             CoreApplication.GetCurrentView().TitleBar.ExtendViewIntoTitleBar = true;
             ApplicationView.GetForCurrentView().TitleBar.ButtonBackgroundColor =  Windows.UI.Colors.Transparent;
             ApplicationView.GetForCurrentView().TitleBar.ButtonInactiveBackgroundColor = Windows.UI.Colors.Transparent;
-             Window.Current.SetTitleBar(TitleBar);
+            Window.Current.SetTitleBar(TitleBar);
         }
     }
 }
